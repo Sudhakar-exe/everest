@@ -27,7 +27,7 @@ export default function Landing() {
       </div>
       <div className="grid grid-cols-2">
         <div className="p-4 m-4 bg-slate-500">Grid 1</div>
-        <div className="p-4 m-4 bg-slate-500">Grid 2</div>
+        <div className="p-4 m-4 bg-slate-500">Grid 2</div>      
       </div>
       <div className="p-4 m-4 bg-zinc-500">
         <p className="font-bold">Hi, I am learning Tailwind CSS</p>

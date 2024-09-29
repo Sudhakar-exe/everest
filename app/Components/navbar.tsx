@@ -1,12 +1,23 @@
 export default function Navbar() {
   return (
     <>
-      <h4 className="text-center font-bold">Starter Project</h4>
-      <div>
-        <p className="text-left m-1 p-1">My name is Sudhakar Chaulagain.</p>
-      </div>
-      <div>
-        <p className="text-right m-1 p-1">I am from Nepal.</p>
+      <div className="flex items-center justify-between shadow-lg border bg-slate-500 border-emerald-900">
+        <div>
+          <img src="/Logo_de_Facebook.png" alt="Logo img"></img>
+        </div>
+        <div className="flex justify-center">
+          <button className=" p-4 px-6 hover:bg-green-700">Home</button>
+          <button className=" p-4 px-6 hover:bg-green-700">About</button>
+          <button className=" p-4 px-6 hover:bg-green-700">Help</button>
+        </div>
+        <div className="flex justify-end">
+          <form>
+            <input type="text" placeholder="Search Here" className="m-1 p-1 rounded-lg"></input>
+          </form>
+          <button className="m-1 p-1 bg-blue-500 rounded-lg hover:bg-blue-600 active:bg-blue-700">
+            Profile
+          </button>
+        </div>
       </div>
     </>
   );
