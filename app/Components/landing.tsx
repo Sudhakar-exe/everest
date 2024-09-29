@@ -1,8 +1,14 @@
+import Image from 'next/image';
+import image from '../assets/background.jpg';
+
 export default function Landing() {
   return (
     <div>
       <div>
         <hr className="border-gray-900"></hr>
+      </div>
+      <div>
+        <Image src={image} alt='background Imgae' width={2000} height={50}/>
       </div>
       <div className="list-disc">
         <li className="text-red-800">Ram eats rice.</li>
